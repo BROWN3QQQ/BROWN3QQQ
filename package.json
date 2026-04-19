@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next build",
-    "start": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next start"
+    "start": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next start",
+    "generate:preview": "node scripts/generate-preview.js"
   },
   "repository": {
     "type": "git",
