@@ -38,18 +38,16 @@ export default async (req, res) => {
             />
 
             <text class="text" x="50%" y="110" text-anchor="middle" font-size="32px" font-weight="bold" fill="#fff">Hi there &#128075;</text>
-            <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" style="opacity: 0" fill="#fff" id="name_d1">
+            <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" fill="black" id="name_d1">
                 My name is <tspan font-weight="bold" fill="black">cui qian</tspan>.
             </text>
-            <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" style="opacity: 0" fill="#fff" id="name_d2">
+            <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="black" id="name_d2">
                 I am cui qian, dedicated to building powerful agent systems.
             </text>
 
             <text class="text" x="20" y="32" font-size="12px" fill="#fff">${format(new Date(), 'iii, MMM. do, yyy')}</text>
 
             <animate xlink:href="#image" attributeName="x" from="0" to="-2600" dur="80s" repeatCount="1" fill="freeze" />
-            <animate xlink:href="#name_d1" attributeType="CSS" attributeName="opacity" from="0" begin="2s" to="1" dur="1s" repeatCount="1" fill="freeze" />
-            <animate xlink:href="#name_d2" attributeType="CSS" attributeName="opacity" from="0" begin="4s" to="1" dur="1s" repeatCount="1" fill="freeze" />
         </svg>
     `)
 }
