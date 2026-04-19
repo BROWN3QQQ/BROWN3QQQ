@@ -3,12 +3,12 @@ import image from '../../utils/image.base64'
 import ua from 'universal-analytics'
 
 export default async (req, res) => {
-    ua('UA-76312016-3').pageview("/api").send()
+    ua('UA-76312016-3').pageview('/api').send()
 
     res.statusCode = 200
     res.setHeader('Content-Type', 'image/svg+xml')
     res.setHeader('Cache-Control', 'max-age=3600')
-    res.end(/* html */`
+    res.end(/* html */ `
         <svg version="1.1"
             baseProfile="full"
             width="100%" height="231"
@@ -37,23 +37,19 @@ export default async (req, res) => {
                 style="opacity: 1 !important"
             />
 
-            <!-- <rect x="0" y="135" width="380" height="100" fill="black"/> -->
-            <!-- <rect x="16" y="185" width="380" height="23" fill="black"/> -->
-            <!-- <rect x="115" y="185" width="180" height="23" fill="white"/> -->
-
-            <text class="text" x="50%" y="110" text-anchor="middle" font-size="32px" font-weight="bold" fill="#fff">Hi there 👋</text>
+            <text class="text" x="50%" y="110" text-anchor="middle" font-size="32px" font-weight="bold" fill="#fff">Hi there &#128075;</text>
             <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" style="opacity: 0" fill="#fff" id="name_d1">
-                My name is <tspan font-weight="bold" fill="black">Vladyslav Hrytsenko</tspan>.
+                My name is <tspan font-weight="bold" fill="black">cui qian</tspan>.
             </text>
             <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" style="opacity: 0" fill="#fff" id="name_d2">
-                I do software engineering.
+                I am cui qian, dedicated to building powerful agent systems.
             </text>
 
-            <text class="text" x="20" y="32" font-size="12px" fill="#fff">${format(new Date(), "iii, MMM. do, yyy")}</text>
+            <text class="text" x="20" y="32" font-size="12px" fill="#fff">${format(new Date(), 'iii, MMM. do, yyy')}</text>
 
             <animate xlink:href="#image" attributeName="x" from="0" to="-2600" dur="80s" repeatCount="1" fill="freeze" />
-            <animate xlink:href="#name_d1" attributeType="CSS" attributeName="opacity" from="0" begin="2s" to="1" dur="1s" repeatCount="1" fill="freeze"  />
-            <animate xlink:href="#name_d2" attributeType="CSS" attributeName="opacity" from="0" begin="4s" to="1" dur="1s" repeatCount="1" fill="freeze"  />
+            <animate xlink:href="#name_d1" attributeType="CSS" attributeName="opacity" from="0" begin="2s" to="1" dur="1s" repeatCount="1" fill="freeze" />
+            <animate xlink:href="#name_d2" attributeType="CSS" attributeName="opacity" from="0" begin="4s" to="1" dur="1s" repeatCount="1" fill="freeze" />
         </svg>
     `)
 }

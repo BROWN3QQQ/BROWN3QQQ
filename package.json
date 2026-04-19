@@ -1,5 +1,5 @@
 {
-  "name": "inlife",
+  "name": "brown3qqq",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inlife/inlife.git"
+    "url": "git+https://github.com/BROWN3QQQ/BROWN3QQQ.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inlife/inlife/issues"
+    "url": "https://github.com/BROWN3QQQ/BROWN3QQQ/issues"
   },
-  "homepage": "https://github.com/inlife/inlife#readme",
+  "homepage": "https://github.com/BROWN3QQQ/BROWN3QQQ#readme",
   "dependencies": {
     "date-fns": "^2.16.1",
     "next": "^9.5.3",
