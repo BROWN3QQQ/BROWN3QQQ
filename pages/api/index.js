@@ -38,11 +38,11 @@ export default async (req, res) => {
             />
 
             <text class="text" x="50%" y="110" text-anchor="middle" font-size="32px" font-weight="bold" fill="#fff">Hi there &#128075;</text>
-            <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" fill="black" id="name_d1">
+            <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" fill="#fff" id="name_d1">
                 My name is <tspan font-weight="bold" fill="black">cui qian</tspan>.
             </text>
-            <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="black" id="name_d2">
-                I am cui qian, dedicated to building powerful agent systems.
+            <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="#fff" id="name_d2">
+                I am cui qian, dedicated to building <tspan font-weight="bold" fill="black">powerful agent systems</tspan>.
             </text>
 
             <text class="text" x="20" y="32" font-size="12px" fill="#fff">${format(new Date(), 'iii, MMM. do, yyy')}</text>

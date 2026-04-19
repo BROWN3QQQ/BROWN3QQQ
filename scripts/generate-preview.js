@@ -51,11 +51,11 @@ function buildSvg() {
     />
 
     <text class="text" x="50%" y="110" text-anchor="middle" font-size="32px" font-weight="bold" fill="#fff">Hi there &#128075;</text>
-    <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" fill="black">
+    <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" fill="#fff">
         My name is <tspan font-weight="bold" fill="black">cui qian</tspan>.
     </text>
-    <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="black">
-        I am cui qian, dedicated to building powerful agent systems.
+    <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="#fff">
+        I am cui qian, dedicated to building <tspan font-weight="bold" fill="black">powerful agent systems</tspan>.
     </text>
 
     <text class="text" x="20" y="32" font-size="12px" fill="#fff">${formatDate(new Date())}</text>
