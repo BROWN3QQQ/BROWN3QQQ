@@ -31,7 +31,7 @@
         My name is <tspan font-weight="bold" fill="#fff">cui qian</tspan>.
     </text>
     <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="#fff" id="name_d2">
-        I am cui qian, dedicated to building <tspan font-weight="bold" fill="#fff">powerful agent system</tspan>
+        dedicated to building <tspan font-weight="bold" fill="#fff">powerful agent system</tspan>
     </text>
 
     <text class="text" x="20" y="32" font-size="12px" fill="#fff">Thu, Apr. 23rd, 2026</text>
