@@ -50,7 +50,7 @@ function buildSvg({ date = new Date() } = {}) {
 
     <text class="text" x="50%" y="110" text-anchor="middle" font-size="32px" font-weight="bold" fill="#fff">Hi there &#128075;</text>
     <text class="text" x="50%" y="138" text-anchor="middle" font-size="18px" fill="#fff" id="name_d1">
-        My name is <tspan font-weight="bold" fill="#fff">cui qian</tspan>.
+        My name is <tspan font-weight="bold" fill="#fff">Jackson Choi</tspan>.
     </text>
     <text class="text" x="50%" y="160" text-anchor="middle" font-size="18px" fill="#fff" id="name_d2">
         dedicated to building <tspan font-weight="bold" fill="#fff">powerful agent system</tspan>
